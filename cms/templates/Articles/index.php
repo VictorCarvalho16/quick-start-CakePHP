@@ -6,7 +6,7 @@
         <th>Created</th>
     </tr>
 
-    <?php foreach ($articles as $article): ?>
+    <?php foreach ($articles as $article) : ?>
     <tr>
         <td>
             <?= $this->Html->link($article->title, ['action' => 'view', $article->slug]) ?>
